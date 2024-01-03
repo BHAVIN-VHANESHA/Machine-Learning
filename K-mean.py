@@ -2,7 +2,7 @@ import matplotlib.pyplot as mtp
 import pandas as pd
 from sklearn.cluster import KMeans
 
-dataset = pd.read_csv('data.csv')
+dataset = pd.read_csv('Datasets/data.csv')
 x = dataset.iloc[:, [1, 2]].values
 
 # finding optimal number of clusters using the elbow method

@@ -6,7 +6,7 @@ import seaborn as sns
 import scipy as sp
 
 # using the Csv file
-df = pd.read_csv('usedcars.csv')
+df = pd.read_csv('Datasets/usedcars.csv')
 
 # Checking the first 5 entries of dataset
 df.head()
