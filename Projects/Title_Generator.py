@@ -18,14 +18,14 @@ from numpy.random import seed
 seed(1)
 
 # load all the datasets
-df1 = pd.read_csv('/Datasets/USvideos.csv')
-df2 = pd.read_csv('/Datasets/CAvideos.csv')
-df3 = pd.read_csv('/Datasets/GBvideos.csv')
+df1 = pd.read_csv('../Datasets/USvideos.csv')
+df2 = pd.read_csv('../Datasets/CAvideos.csv')
+df3 = pd.read_csv('../Datasets/GBvideos.csv')
 
 # load the datasets containing the category names
-data1 = json.load(open('/Datasets/US_category_id.json'))
-data2 = json.load(open('/Datasets/CA_category_id.json'))
-data3 = json.load(open('/Datasets/GB_category_id.json'))
+data1 = json.load(open('../Datasets/US_category_id.json'))
+data2 = json.load(open('../Datasets/CA_category_id.json'))
+data3 = json.load(open('../Datasets/GB_category_id.json'))
 
 
 def category_extractor(data):
